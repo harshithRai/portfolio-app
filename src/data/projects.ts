@@ -1,4 +1,5 @@
 import type { Project } from "@/types/project";
+import { IMAGES } from "@/assets/images";
 
 export const PROJECTS: Project[] = [
   {
@@ -13,8 +14,8 @@ export const PROJECTS: Project[] = [
     ],
     stack: ["React", "TypeScript", "Component-driven UI"],
     images: [
-      { src: "/images/shincoo-1.png", alt: "Shincoo Wedding - Budget screen" },
-      { src: "/images/shincoo-2.png", alt: "Shincoo Wedding - To-dos screen" },
+      { src: IMAGES.shincoo1, alt: "Shincoo Wedding – Budget screen" },
+      { src: IMAGES.shincoo2, alt: "Shincoo Wedding – To-dos screen" },
     ],
     links: [],
   },
@@ -30,15 +31,9 @@ export const PROJECTS: Project[] = [
     ],
     stack: ["React", "TypeScript", "REST APIs"],
     images: [
-      { src: "/images/xlink-1.png", alt: "Remittance portal - dashboard" },
-      {
-        src: "/images/xlink-2.png",
-        alt: "Remittance portal - profile overview",
-      },
-      {
-        src: "/images/xlink-3.png",
-        alt: "Remittance portal - compliance documents",
-      },
+      { src: IMAGES.xlink1, alt: "Remittance portal – dashboard" },
+      { src: IMAGES.xlink2, alt: "Remittance portal – profile overview" },
+      { src: IMAGES.xlink3, alt: "Remittance portal – compliance documents" },
     ],
     links: [],
   },
